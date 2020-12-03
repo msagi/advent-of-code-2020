@@ -1,3 +1,5 @@
+# https://adventofcode.com/2020/day/3
+
 infile = open('input.txt', 'r')
 lines = infile.readlines()
 infile.close()
@@ -25,4 +27,3 @@ answer = 1
 for slope in slopes:
     answer *= tree_count(slope[0], slope[1])
 print(answer)
-

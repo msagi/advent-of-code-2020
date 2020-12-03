@@ -1,3 +1,5 @@
+# https://adventofcode.com/2020/day/2
+
 import re
 
 line_pattern = re.compile("(\\d+)-(\\d+) ([a-z]): ([a-z]*)\n")
@@ -18,4 +20,3 @@ for line in lines:
     if (password[policy_first - 1] == policy_letter) != (password[policy_second - 1] == policy_letter):
         valid += 1
 print(valid)
-

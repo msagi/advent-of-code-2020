@@ -1,3 +1,5 @@
+# https://adventofcode.com/2020/day/3
+
 infile = open('input.txt', 'r')
 lines = infile.readlines()
 infile.close()
@@ -9,4 +11,3 @@ for line in lines:
         trees += 1
     offset += 3
 print(trees)
-

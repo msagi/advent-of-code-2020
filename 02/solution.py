@@ -1,3 +1,5 @@
+# https://adventofcode.com/2020/day/2
+
 import re
 
 line_pattern = re.compile("(\\d+)-(\\d+) ([a-z]): ([a-z]*)\n")
@@ -22,4 +24,3 @@ for line in lines:
     if policy_min <= found <= policy_max:
         valid += 1
 print(valid)
-

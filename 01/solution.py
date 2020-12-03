@@ -1,3 +1,5 @@
+# https://adventofcode.com/2020/day/1
+
 infile = open('input.txt', 'r')
 numbers = infile.readlines()
 infile.close()
@@ -11,4 +13,3 @@ for i in range(len(numbers)):
             exit(0)
 
 exit(-1)
-
