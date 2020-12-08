@@ -5,7 +5,7 @@ def execute_code(code_lines: list[str]):
     """
     Execute program code
     :param code_lines: code to execute given as lines of strings
-    :return: True, accumulator if execution terminates normally; False, accumulator if execution goes into infinite loop
+    :return: (True, accumulator) if execution terminates; (False, accumulator) if it goes into an infinite loop
     """
     accumulator = 0
     code_pointer = 0
